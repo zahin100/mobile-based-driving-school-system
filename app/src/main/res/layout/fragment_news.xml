@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewsFragment">
+
+    <TextView
+        android:id="@+id/notes"
+        style="@style/PurpleText"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="@font/poppinsbold"
+        android:text="Announcement"
+        android:textSize="30sp" />
+
+    <EditText
+        android:layout_width="371dp"
+        android:layout_height="126dp"
+        android:layout_marginTop="100dp"
+        android:id="@+id/editTextNewsContent"
+        android:layout_gravity="center_horizontal"
+        android:inputType="textPersonName"
+        android:background="@drawable/round"
+        android:hint="Type your announcement here."
+        android:textAlignment="center"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnAddNews"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:background="#6284DC"
+        android:text="Add Announcement" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recylcerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="340dp"
+        tools:layout_editor_absoluteX="745dp"
+        tools:layout_editor_absoluteY="-51dp"/>
+
+</FrameLayout>

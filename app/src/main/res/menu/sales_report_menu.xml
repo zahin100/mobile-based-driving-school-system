@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/weeklySalesReportMenu"
+        android:title="Weekly Sales Report" />
+
+    <item
+        android:id="@+id/monthlySalesReportMenu"
+        android:title="Monthly Sales Report" />
+
+    <item
+        android:id="@+id/yearlySalesReportMenu"
+        android:title="Yearly Sales Report" />
+
+</menu>

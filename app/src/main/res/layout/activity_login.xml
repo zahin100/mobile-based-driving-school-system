@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+    <!--text view for heading-->
+
+    <TextView
+        android:id="@+id/loginHeaderTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/poppins"
+        android:gravity="center_horizontal"
+        android:padding="5dp"
+        android:text="Login"
+        android:textAlignment="center"
+        android:textColor="#101D6B"
+        android:textSize="40sp" />
+
+    <!--edit text for user name-->
+    <EditText
+        android:id="@+id/editTextUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/loginHeaderTextView"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="10dp"
+        android:fontFamily="@font/poppins"
+        android:hint="Enter Username"
+        android:inputType="textEmailAddress" />
+
+    <!--edit text for user password-->
+
+    <!--button to register our new user-->
+
+    <EditText
+        android:id="@+id/passwordLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:fontFamily="@font/poppins"
+        android:hint="Enter Password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/studentLoginButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100px"
+        android:background="#101D6B"
+        android:fontFamily="@font/poppins"
+        android:text="login as student"
+        android:textColor="#FEFEFE" />
+
+    <Button
+        android:id="@+id/staffLoginButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60px"
+        android:background="#101D6B"
+        android:fontFamily="@font/poppins"
+        android:text="login as staff"
+        android:textColor="#FEFEFE" />
+
+    <Button
+        android:id="@+id/registerButton1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60px"
+        android:background="@null"
+        android:fontFamily="@font/poppins"
+        android:text="Don't have an account? Create student account here"
+        android:textAllCaps="false"
+        android:textColor="#30D5C8"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

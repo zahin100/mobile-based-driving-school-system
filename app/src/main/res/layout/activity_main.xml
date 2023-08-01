@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="200px"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/homeTitleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        android:fontFamily="@font/poppins"
+        android:text="XYZ DRIVING SCHOOL"
+        android:textAlignment="center"
+        android:textColor="#3F51B5"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/priceB2TextView"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:background="#03A9F4"
+        android:fontFamily="@font/poppins"
+        android:paddingLeft="50px"
+        android:paddingTop="50px"
+        android:text="B2 (Normal Motorcycle) - RM 600"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/priceBTextView"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:background="#03A9F4"
+        android:fontFamily="@font/poppins"
+        android:paddingLeft="50px"
+        android:paddingTop="50px"
+        android:text="B (Heavy Motorcycle) - RM 1300"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/priceDTextView"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:background="#03A9F4"
+        android:fontFamily="@font/poppins"
+        android:paddingLeft="50px"
+        android:paddingTop="50px"
+        android:text="D (Manual Vehicle) - RM 1500"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/priceDATextView"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:background="#03A9F4"
+        android:fontFamily="@font/poppins"
+        android:paddingLeft="50px"
+        android:paddingTop="50px"
+        android:text="DA (Automatic Vehicle) - RM 1600"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/registerButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100px"
+        android:background="#101D6B"
+        android:text="REGISTER"
+        android:textColor="#FEFEFE" />
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50px"
+        android:background="#101D6B"
+        android:text="LOGIN"
+        android:textColor="#FEFEFE" />
+</LinearLayout>

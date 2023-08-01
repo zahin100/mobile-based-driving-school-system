@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">FYP</string>
+    <string name="title_activity_student_login">StudentLoginActivity</string>
+    <string name="title_activity_student">StudentActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="licenceType_arrays">
+        <item>B</item>
+        <item>B2</item>
+        <item>D</item>
+        <item>DA</item>
+    </string-array>
+
+
+</resources>

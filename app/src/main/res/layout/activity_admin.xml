@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/navy"
+    android:orientation="vertical"
+    tools:context=".AdminActivity"
+    android:id="@+id/linearlayoutadmin">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/frameLayoutAdmin">
+
+    </FrameLayout>
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnLogOutAdmin"
+                android:layout_width="48dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="577px"
+                android:layout_marginTop="20px"
+                android:backgroundTint="@color/navy"
+                android:drawableLeft="@drawable/baseline_logout_24"
+                android:text="q"
+                android:textSize="1px" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card_view_admin"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginTop="70px"
+                android:layout_marginLeft="50px"
+                android:layout_marginRight="50px"
+                app:cardCornerRadius="4dp"
+                >
+
+                <TextView
+                    android:id="@+id/txtGreetAdmin"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/poppinsmedium"
+                    android:gravity="center"
+                    android:text="Welcome, !"
+                    android:textColor="@color/black"
+                    android:textSize="70px"
+                    tools:ignore="RtlCompat"
+                    />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardViewPostAnnouncements"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100px"
+                android:layout_marginRight="40px"
+                android:layout_marginLeft="50px"
+                app:cardCornerRadius="4dp"
+
+                >
+
+                <TextView
+                    android:id="@+id/txtViewPostAnnouncements"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:padding="30dp"
+
+                    android:drawableStart="@drawable/baseline_announcement_24"
+                    android:fontFamily="@font/poppins"
+                    android:gravity="center"
+                    android:text="Post Announcements"
+
+                    android:textColor="@color/black" />
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardViewSalesReport"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="90px"
+                android:layout_marginRight="40px"
+                android:layout_marginLeft="50px"
+                android:layout_marginBottom="70px"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/txtViewSalesReport"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="30dp"
+                    android:drawableStart="@drawable/baseline_bar_chart_24"
+                    android:fontFamily="@font/poppins"
+                    android:gravity="center"
+                    android:text="Sales Report"
+                    android:textColor="@color/black" />
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+
+
+
+
+</LinearLayout>
